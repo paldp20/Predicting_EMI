@@ -57,7 +57,7 @@ The project leverages **MLflow** for experiment tracking and **Streamlit** for a
 
 ### Clone the repository
 ```bash
-git clone https://github.com/<your-username>/Predicting-EMI.git
+git clone https://github.com/paldp20/Predicting_EMI.git
 cd Predicting-EMI
 ```
 
@@ -77,5 +77,6 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlru
 ```bash
 stramlit run app.py
 ```
+
 
 
