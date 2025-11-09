@@ -1,0 +1,21 @@
+# Ignore virtual environment and cache files
+myenv/
+__pycache__/
+*.pyc
+*.pkl
+*.joblib
+*.log
+.DS_Store
+
+# Ignore large ML artifacts
+mlruns/
+artifacts/
+models/
+notebooks/
+dataset/
+*.csv
+*.xlsx
+
+# VSCode / IDE files
+.vscode/
+.idea/
