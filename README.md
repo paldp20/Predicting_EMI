@@ -13,7 +13,6 @@ The project leverages **MLflow** for experiment tracking and **Streamlit** for a
 - Python (Scikit-learn, XGBoost, Pandas, NumPy)
 - MLflow for experiment management
 - Streamlit for user interface
-- Matplotlib for visualization
 
 ---
 
@@ -77,6 +76,7 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlru
 ```bash
 stramlit run app.py
 ```
+
 
 
 
